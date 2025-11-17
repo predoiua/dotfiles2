@@ -86,6 +86,13 @@ return {
             desc = "[,] Find existing buffers",
         },
         {
+            "<leader>;",
+            function()
+                require("fzf-lua").buffers()
+            end,
+            desc = "[,] Find existing buffers",
+        },
+        {
             "<leader>/",
             function()
                 require("fzf-lua").lgrep_curbuf()
