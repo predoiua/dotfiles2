@@ -1,4 +1,5 @@
 vim.keymap.set("n", "-", "<cmd>Oil --float<CR>", {desc="Open Parent Directory in Oil"})
+vim.keymap.set("n", "<F7>", "<cmd>Oil --float<CR>", {desc="Open Parent Directory in Oil"})
 
 vim.keymap.set('n', 'gV', '`[v`]', { desc = 'Reselect last visual selection' })
 --vim.keymap.set("n", "gl", function()
