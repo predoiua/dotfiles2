@@ -41,7 +41,7 @@ vim.keymap.set('n', '<Leader>-', ':sp<CR>', { desc = 'Horizontal split' })
 vim.keymap.set('n', '<Leader>|', ':vsp<CR>', { desc = 'Vertical split' })
 
 -- Startity
-vim.keymap.set('n', '<Leader>`', ':Startity<CR>', { desc = 'Start Startify' })
+vim.keymap.set('n', '<Leader>`', ':Startify<CR>', { desc = 'Start Startify' })
 
 vim.keymap.set('n', '<Leader>1', '1gt', { desc = 'Go to tab 1' })
 vim.keymap.set('n', '<Leader>2', '2gt', { desc = 'Go to tab 2' })
